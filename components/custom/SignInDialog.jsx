@@ -37,13 +37,14 @@ function SignInDialog({ openDialog, closeDialog }) {
         picture: user?.picture,
         uid: uuid4(),
       });
-      if (typeof window !== undefined) {
+      if (typeof window !== 'undefined') {
         localStorage.setItem("user", JSON.stringify(user));
       }
       setUserDetail(userInfo?.data);
       closeDialog(false);
     },
     onError: (errorResponse) => console.log(errorResponse),
+    ux_mode: "redirect"
   });
   return (
     <Dialog open={openDialog} onOpenChange={closeDialog}>

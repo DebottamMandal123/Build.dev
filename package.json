@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "npx kill-port 3000 && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -20,7 +20,7 @@
     "axios": "^1.7.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "convex": "^1.17.4",
+    "convex": "^1.21.0",
     "dedent": "^1.5.3",
     "lucide-react": "^0.471.0",
     "next": "15.1.4",
