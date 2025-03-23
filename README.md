@@ -19,13 +19,13 @@ npm install
 
 ### 3. **Set Up Environment Variables**
 
-Create a `.env` file at the root of the project and populate it with your API keys and configuration details. Refer to `.env.example` for the structure.
+Create a `.env` file at the root of the project and populate it with the API keys and configuration details given below.
 
 ```ini
-NEXT_PUBLIC_GOOGLE_AUTH_CLIENT_ID=<your_google_auth_client_id>
-CONVEX_DEPLOYMENT=<your_convex_deployment>
-NEXT_PUBLIC_CONVEX_URL=<your_convex_url>
-NEXT_PUBLIC_GEMINI_API_KEY=<your_gemini_api_key>
+NEXT_PUBLIC_GOOGLE_AUTH_CLIENT_ID_KEY=635950653297-4stpg2mb25rhpnk38rmknr2jdvoq05fd.apps.googleusercontent.com
+CONVEX_DEPLOYMENT=dev:coordinated-narwhal-88
+NEXT_PUBLIC_CONVEX_URL=https://coordinated-narwhal-88.convex.cloud
+NEXT_PUBLIC_GEMINI_API_KEY=AIzaSyC03TcaPhCvz1JcJgObSeAgRk-4wwXY8Es
 ```
 
 **Note**: You'll need to obtain API keys from the respective services.
