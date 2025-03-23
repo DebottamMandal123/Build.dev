@@ -38,4 +38,4 @@ Start the development server:
 npm run dev
 ```
 
-Open `http://localhost:3000` in your browser to experience CodeMind AI locally.
+Open `http://localhost:3000` in your browser to experience Build.dev locally.
