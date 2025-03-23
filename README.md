@@ -28,7 +28,7 @@ NEXT_PUBLIC_CONVEX_URL=https://coordinated-narwhal-88.convex.cloud
 NEXT_PUBLIC_GEMINI_API_KEY=AIzaSyC03TcaPhCvz1JcJgObSeAgRk-4wwXY8Es
 ```
 
-**Note**: You'll need to obtain API keys from the respective services.
+**Note**: You'll need to obtain API keys from the respective services if any of the api keys do not work
 
 ### 4. **Launch the Development Server**
 
