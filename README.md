@@ -22,10 +22,10 @@ npm install
 Create a `.env` file at the root of the project and populate it with the API keys and configuration details given below.
 
 ```ini
-NEXT_PUBLIC_GOOGLE_AUTH_CLIENT_ID_KEY=635950653297-4stpg2mb25rhpnk38rmknr2jdvoq05fd.apps.googleusercontent.com
-CONVEX_DEPLOYMENT=dev:coordinated-narwhal-88
-NEXT_PUBLIC_CONVEX_URL=https://coordinated-narwhal-88.convex.cloud
-NEXT_PUBLIC_GEMINI_API_KEY=AIzaSyC03TcaPhCvz1JcJgObSeAgRk-4wwXY8Es
+NEXT_PUBLIC_GOOGLE_AUTH_CLIENT_ID_KEY=
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
+NEXT_PUBLIC_GEMINI_API_KEY=
 ```
 
 **Note**: You'll need to obtain API keys from the respective services if any of the api keys do not work
